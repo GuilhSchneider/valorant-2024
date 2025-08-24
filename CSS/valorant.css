@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0B0E18;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* HEADER igual ao index */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #000000;
+}
+
+header .logo img {
+  height: 30px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .login button {
+  background-color: #ff4d4d;
+  color: rgba(0, 0, 0, 0.904);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 0.7rem rgba(255, 255, 255, 0.8));
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("../Imagens/valorantWallpaper.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #FF4655;
+  text-shadow: 0 0 20px black;
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px black;
+}
+
+.hero-text .botao {
+  display: inline-block;
+  padding: 15px 40px;
+  background: #FF4655;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(255, 70, 85, 0.6);
+}
+
+.hero-text .botao:hover {
+  background: #ff6b75;
+}
+
+/* CARDS */
+.cards {
+  padding: 80px 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.cards h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #FF4655;
+}
+
+.card-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #141824;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #FF4655;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(255,70,85,0.3);
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}

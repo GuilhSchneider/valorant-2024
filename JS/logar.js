@@ -11,7 +11,7 @@ function entrar() {
 
             // Admin fixo
             if (inputEmail.value === "admin@admin" && inputSenha.value === "0000") {
-                window.location.href = 'cadastrados.html';
+                window.location.href = 'valorant.html';
                 usuarioCadastrado = true;
                 return; // já sai da função
             }
