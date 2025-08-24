@@ -82,6 +82,7 @@ main {
 .content p {
     font-size: 18px;
     margin-bottom: 30px;
+    margin-right: 50px;
     filter: drop-shadow(0 0 0.7rem rgb(0, 0, 0));
 }
 
@@ -108,3 +109,4 @@ main {
     border-radius: 10px;
 
 }
+
