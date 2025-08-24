@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #000000;
+}
+
+header .logo img {
+    height: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .login button {
+    background-color: #ff4d4d;
+    color: rgba(0, 0, 0, 0.904);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+    filter: drop-shadow(0 0 0.7rem rgba(255, 255, 255, 0.8));
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fundo{
+    background-image: url(../Imagens/valorantWallpaper.png);
+    height: 100vh;
+}
+
+.content {
+    width: 850px;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 0.7rem black);
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 0 0.7rem rgb(0, 0, 0));
+}
+
+.content .botao {
+    display: inline-block;
+    background-color: #FF4655;
+    color: white;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 15px;
+    filter: drop-shadow(0 0 0.7rem rgba(0, 0, 0, 0.800));
+}
+
+.content img {
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0 0 1rem);
+}
+
+.imagem img {
+    width: 150px;
+    border-radius: 10px;
+}

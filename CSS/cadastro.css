@@ -1,0 +1,71 @@
+body{
+    background-image: url(../Imagens/fundo2.png);
+    background-size: 1920px 1200px;
+    background-position-y: -100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+main{
+    background: linear-gradient(#090C13, #0B1B35, #1B2B4D, #364566);
+    width: 500px;
+    height: 650px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 1000px;
+}
+
+#textoConta{
+    position: absolute;
+    left: 250px;
+    bottom: 100px;
+    color: white;
+    font-size: 100px;
+    filter: drop-shadow(0 0 0.3em black);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.800);
+}
+
+.content h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.content input {
+    height: 45px;
+    width: 350px;
+    border: 0px;
+    margin-top: 15px;
+}
+
+.content button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content label, a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(160, 160, 160, 0.800);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.content label:hover, a:hover{
+    color: white;
+}
